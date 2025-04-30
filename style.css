@@ -1,0 +1,52 @@
+.picture {
+    width: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    float: right;
+    margin-right: -100px;
+}
+
+.text {
+    font-size: 20px;
+    color: white;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.textMiddle {
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    color: white
+}
+
+.headText {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.bodyText {
+    font-size: 20px;
+    color: white;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+body {
+    background-color: black;
+}
+
+.navbar-lightgrey {
+    background-color: #d3d3d3; /* light grey */
+}
+
+.skill-icon {
+    width: 120px;
+    height: 120px;
+    object-fit: cover; /* fills the area and crops if needed */
+    border-radius: 12px; /* optional, for rounded corners */
+    display: block;
+    margin: 0 auto; /* centers the image in its column */
+}

@@ -5,19 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container mt-5">
-        <h1 class="text-center">Welcome to My Web Page</h1>
-        <p class="text-center">This is a simple web page using Bootstrap.</p>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title 1</h5>
-                        </div>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-lightgrey py-5 sticky-top">
+  <div class="container justify-content-center">
+    <a class="navbar-brand text-white mx-3" href="#">Navbar</a>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">About</a>
+        </li>
+        <li class="nav-item">
+           <a class="nav-link text-white" href="#">Projects</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
     
+
+    <div class="container mt-5">
+        <h1 class="headText text-center">Welcome To My Website</h1>
+        <p class="bodyText text-center">Here you can find my projects and contact information.</p>
+
+        <img class="picture" src="images/IMG_1956.jpeg" class="rounded float-end" alt="...">
+    
+        <div class="textinformation row mt-5 pt-5">
+            
+            
+            <div class="textMiddle py-5">
+                    <h2>
+                        Proficient in the following
+                    </h2>
+            </div>
+        </div>
+        
+        <div class="row">
+            
+            <div class="col-3 mx-5">
+                <img src="images/java.png" class="rounded float-start" alt="...">
+            </div>
+
+            <div class="col-3">
+                <img src="images/python.png" class="rounded float-start" alt="...">
+            </div>
+
+            <div class="col-3">
+                <img src="images/html.png" class="rounded float-start" alt="...">
+            </div>
+
+            <div class="col-3">
+                <img src="images/css.png" class="rounded float-start" alt="...">
+            </div>
+
+            </div>
+        </div>
+
+        <footer class="text-center mt-5 pt-5">
+            <p>© 2025 Your Name. All rights reserved.</p>
+            <p>Follow me on <a href="#">LinkedIn</a> | <a href="#">GitHub</a></p>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
 </html>
